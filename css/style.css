@@ -1,0 +1,113 @@
+body {
+    padding: 54px 0px 0px 0px;
+    z-index: 0;
+}
+
+.img-logo {
+    width: 47px;
+    height: 35px;
+}
+
+.navbar-dark {
+    background: #512DA8;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 20px 70px 20px;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+
+/* styling a tab-content class  */
+
+.tab-content {
+    margin: 20px 0px 70px 0px;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-text {
+    cursor: pointer;
+}
+
+
+/* Carousel Styling  */
+
+.carousel {
+    background: #512DA8;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+/* 4th Assignment  */
+
+
+/* styling a pause button  */
+
+#carouselButton {
+    right: 15px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+
+/* styling modals */
+
+.modal-header {
+    background: #512DA8;
+    color: #ffffff;
+}
+
+.modal-header button {
+    color: #ffffff;
+}
+
+.modal-header button:hover {
+    color: #dddddd;
+}
+
+.modal-body {
+    background-color: #D1C4E9;
+}
